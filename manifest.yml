@@ -1,0 +1,6 @@
+---
+applications:
+- name: ReadingListDocDB
+  path: target/PCFReadingListDocDB-0.0.1.jar
+  services:
+    - readingListDocumentDB
