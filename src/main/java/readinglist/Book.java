@@ -1,16 +1,10 @@
 package readinglist;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import org.springframework.data.annotation.Id;
 
-
-@Entity
 public class Book {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
 	private String id;
 	private String reader;
 	private String isbn;
