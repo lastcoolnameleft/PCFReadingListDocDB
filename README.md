@@ -1,4 +1,4 @@
-# SpringBoot Application and Azure DocumentDB for MongoDB Protocol
+ SpringBoot Application and Azure DocumentDB for MongoDB Protocol
 DocumentDB databases can now be used as the data store for apps written for MongoDB. This means that by using existing drivers for MongoDB databases, your application written for MongoDB can now communicate with DocumentDB and use DocumentDB databases instead of MongoDB databases. In many cases, you can switch from using MongoDB to DocumentDB by simply changing a connection string.
 
 This is a SpringBoot application that uses Spring Data MongoDB to do CRUD operations on MongoDB. The same code base is used with both MongoDB and DocumentDB for MongoDB Protocol.
@@ -17,7 +17,7 @@ Following are the instructions to run the app locally against a local MongoDB in
      > Detailed instructions can be found [HERE](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-create-account).
 8. Retrieve and update the connection string for DocumentDB
      > Detailed instructions can be found [HERE](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-connect-mongodb-account).
-9. The updated connection string will look like the following 
+9. The updated connection string will be of the following format
       > mongodb://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE>?ssl=true
 10. From the project base directory run the following command:
       > mvn package && java -Dspring.data.mongodb.uri= mongodb://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE>?ssl=true -jar target/PCFReadingListDocDB-0.0.1.jar
