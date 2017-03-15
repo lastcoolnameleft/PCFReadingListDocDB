@@ -24,6 +24,7 @@ Following are the instructions to run the app locally against a local MongoDB in
 11. Access the appliction from the following URL:
       > http://localhost:7070 
 
-## Local Docker
-## Azure Container Service
-## Pivotal Cloud Foundry 
+## Docker Swarm
+## kubernetes
+## Pivotal Cloud Foundry
+## RedHat OpenShift
