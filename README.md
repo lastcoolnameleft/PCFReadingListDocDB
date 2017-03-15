@@ -1,4 +1,4 @@
- SpringBoot Application and Azure DocumentDB for MongoDB Protocol
+# SpringBoot Application and Azure DocumentDB for MongoDB Protocol
 DocumentDB databases can now be used as the data store for apps written for MongoDB. This means that by using existing drivers for MongoDB databases, your application written for MongoDB can now communicate with DocumentDB and use DocumentDB databases instead of MongoDB databases. In many cases, you can switch from using MongoDB to DocumentDB by simply changing a connection string.
 
 This is a SpringBoot application that uses Spring Data MongoDB to do CRUD operations on MongoDB. The same code base is used with both MongoDB and DocumentDB for MongoDB Protocol.
